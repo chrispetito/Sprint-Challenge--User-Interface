@@ -150,6 +150,8 @@ footer nav a {
     width: 800px;
     height: 100px;
     margin-top: 0px;
+    animation-name: slidein;
+      animation-duration: 1s;
 }
 .navigation img {
     padding-bottom: 20px;
@@ -240,4 +242,15 @@ footer nav a {
 }
 footer nav a:hover {
     color: #c4c4c4;
+}
+@keyframes slidein {
+    from {
+      margin-right: 100%;
+      width: 200%; 
+    }
+  
+    to {
+      margin-right: 0%;
+      width: 100%;
+    }
 }
