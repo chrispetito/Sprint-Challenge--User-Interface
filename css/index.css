@@ -161,6 +161,9 @@ footer nav a {
     font-size: 14px;
     padding: 6px 4px 0px 0px;
 }
+.navigation a:hover {
+    color: #adadad;
+}
 .headerIMG {
     margin: 0px 0px 20px 0px;
 }
@@ -203,20 +206,16 @@ footer nav a {
 .cards {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-
-
+    justify-content: space-around;
 }
 .ind-card {
-    width: 47%;
+    width: 48%;
     border-bottom: 1px dashed black;
-    margin-bottom: 40px;
+    margin: 10px 0px 40px 0px;
     padding-bottom: 20px;
 }
 .ind-card h2 {
     margin-top: 12px;
-}
-.ind-card p {
 }
 .learn-more {
     height: 40px;
@@ -228,6 +227,10 @@ footer nav a {
     background: white;
     margin-top: 20px;
     padding-left: 10px;
+}
+.learn-more:hover {
+    background: black;
+    color: white;
 }
 .bottom-work-together {
     padding: 0px 20px;
