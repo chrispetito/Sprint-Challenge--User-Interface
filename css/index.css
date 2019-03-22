@@ -172,32 +172,72 @@ footer nav a {
 .box1 {
     background: teal;
 }
+.box1:hover {
+    background: #73B9B9;
+    cursor: pointer;
+}
 .box2 {
     background: gold;
+}
+.box2:hover {
+    background: #FFE973;
+    cursor: pointer;
 }
 .box3 {
     background: cadetblue;
 }
+.box3:hover {
+    background: #A7CACB;
+    cursor: pointer;
+}
 .box4 {
     background: coral;
+}
+.box4:hover {
+    background: #FFB99F;
+    cursor: pointer;
 }
 .box5 {
     background: crimson;
 }
+.box5:hover {
+    background: #EB7E94;
+    cursor: pointer;
+}
 .box6 {
     background: forestgreen;
+}
+.box6:hover {
+    background: #86BF86;
+    cursor: pointer;
 }
 .box7 {
     background: darkorchid;
 }
+.box7:hover {
+    background: #C78FE3;
+    cursor: pointer;
+}
 .box8 {
     background: hotpink;
+}
+.box8:hover {
+    background: #FFADD6;
+    cursor: pointer;
 }
 .box9 {
     background: indigo;
 }
+.box9:hover {
+    background: #9C73BA;
+    cursor: pointer;
+}
 .box10 {
     background: dodgerblue;
+}
+.box10:hover {
+    background: #84C2FF;
+    cursor: pointer;
 }
 .top-about-content {
     padding: 0px 20px;
