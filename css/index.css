@@ -99,6 +99,7 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    text-decoration: none;
 }
 
 .middle-content .boxes .box {
@@ -109,6 +110,7 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+    text-decoration: none;
 }
 
 .bottom-content {
@@ -293,4 +295,67 @@ footer nav a:hover {
       margin-right: 0%;
       width: 100%;
     }
+}
+.main-color {
+    background: teal;
+    height: 400px;
+    justify-content: center;
+    align-content: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.main-color strong{
+    font-weight: bold;
+}
+.main-color p {
+    font-size: 30px;
+}
+.sub-colors{
+    display: flex;
+    flex-wrap: wrap;
+}
+.sub-colors .color1 {
+    background: #178B8B;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+.sub-colors .color2 {
+    background: #2E9797;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+.sub-colors .color3 {
+    background: #45A2A2;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+.sub-colors .color4 {
+    background: #5CAEAE;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+.to-your {
+    padding: 0px 20px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    margin-top: 20px;
 }
