@@ -231,9 +231,13 @@ footer nav a {
 .learn-more:hover {
     background: black;
     color: white;
+    cursor: pointer;
 }
 .bottom-work-together {
     padding: 0px 20px;
     margin-bottom: 20px;
     padding-bottom: 20px;
+}
+footer nav a:hover {
+    color: #c4c4c4;
 }
