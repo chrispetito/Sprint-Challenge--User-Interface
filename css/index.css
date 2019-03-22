@@ -296,6 +296,9 @@ footer nav a:hover {
       width: 100%;
     }
 }
+
+/* new box pages */
+
 .main-color {
     background: teal;
     height: 400px;
@@ -313,6 +316,8 @@ footer nav a:hover {
 .main-color p {
     font-size: 30px;
 }
+
+
 .sub-colors{
     display: flex;
     flex-wrap: wrap;
@@ -358,4 +363,192 @@ footer nav a:hover {
     margin-bottom: 20px;
     padding-bottom: 20px;
     margin-top: 20px;
+}
+.main-color2 {
+    background: gold;
+    height: 400px;
+    justify-content: center;
+    align-content: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.sub-colors .color21 {
+    background: #FFDA17;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+.sub-colors .color22 {
+    background: #FFDE2E;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+.sub-colors .color23 {
+    background: #FFE145;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+.sub-colors .color24 {
+    background: #FFE55C;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+.main-color3 {
+    background: cadetblue;
+    height: 400px;
+    justify-content: center;
+    align-content: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.sub-colors .color31 {
+    background: #6DA6A8;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+.sub-colors .color32 {
+    background: #7CAFB1;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+.sub-colors .color33 {
+    background: #8AB8B9;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+.sub-colors .color34 {
+    background: #99C1C2;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+.main-color4 {
+    background: coral;
+    height: 400px;
+    justify-content: center;
+    align-content: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.sub-colors .color41 {
+    background: #FF8A5F;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+.sub-colors .color42 {
+    background: #FF966F;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+.sub-colors .color43 {
+    background: #FFA17F;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+.sub-colors .color44 {
+    background: #FFAD8F;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+.main-color5 {
+    background: crimson;
+    height: 400px;
+    justify-content: center;
+    align-content: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.sub-colors .color51 {
+    background: #DF294D;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+.sub-colors .color52 {
+    background: #E23E5F;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+.sub-colors .color53 {
+    background: #E55471;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+.sub-colors .color54 {
+    background: #E86982;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
 }
