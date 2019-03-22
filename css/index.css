@@ -149,7 +149,7 @@ footer nav a {
     align-items: center;
     width: 800px;
     height: 100px;
-    margin-top: 8px;
+    margin-top: 0px;
 }
 .navigation img {
     padding-bottom: 20px;
@@ -228,4 +228,9 @@ footer nav a {
     background: white;
     margin-top: 20px;
     padding-left: 10px;
+}
+.bottom-work-together {
+    padding: 0px 20px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
 }
