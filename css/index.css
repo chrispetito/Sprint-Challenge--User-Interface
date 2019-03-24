@@ -77,6 +77,8 @@ p {
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    animation-name: scale-in-center;
+    animation-duration: 1s;
 }
 
 .top-content .text-container {
@@ -88,6 +90,8 @@ p {
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    animation-name: scale-in-center;
+    animation-duration: 1s;
 }
 
 .middle-content h2 {
@@ -117,6 +121,8 @@ p {
     display: flex;
     margin: 0 2% 20px;
     justify-content: space-around;
+    animation-name: scale-in-center;
+    animation-duration: 1s;
 }
 
 .bottom-content .text-container {
@@ -170,6 +176,8 @@ footer nav a {
 }
 .headerIMG {
     margin: 0px 0px 20px 0px;
+    animation-name: scale-in-center;
+    animation-duration: 1s;
 }
 .box1 {
     background: teal;
@@ -222,6 +230,7 @@ footer nav a {
 }
 .box8 {
     background: hotpink;
+    cursor: pointer;
 }
 .box8:hover {
     background: #FFADD6;
@@ -236,6 +245,7 @@ footer nav a {
 }
 .box10 {
     background: dodgerblue;
+    cursor: pointer;
 }
 .box10:hover {
     background: #84C2FF;
@@ -246,11 +256,15 @@ footer nav a {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
     padding-bottom: 20px;
+    animation-name: scale-in-center;
+    animation-duration: 1s;
 }
 .cards {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    animation-name: scale-in-center;
+    animation-duration: 1s;
 }
 .ind-card {
     width: 48%;
@@ -309,6 +323,8 @@ footer nav a:hover {
     justify-content: center;
     align-items: center;
     text-align: center;
+    animation-name: scale-in-center;
+    animation-duration: 1s;
 }
 .main-color strong{
     font-weight: bold;
@@ -330,6 +346,8 @@ footer nav a:hover {
     color: white;
     justify-content: center;
     align-items: center;
+    animation-name: scale-in-center;
+    animation-duration: 1s;
 }
 .sub-colors .color2 {
     background: #2E9797;
@@ -339,6 +357,8 @@ footer nav a:hover {
     color: white;
     justify-content: center;
     align-items: center;
+    animation-name: scale-in-center;
+    animation-duration: 1s;
 }
 .sub-colors .color3 {
     background: #45A2A2;
@@ -348,6 +368,8 @@ footer nav a:hover {
     color: white;
     justify-content: center;
     align-items: center;
+    animation-name: scale-in-center;
+    animation-duration: 1s;
 }
 .sub-colors .color4 {
     background: #5CAEAE;
@@ -357,12 +379,16 @@ footer nav a:hover {
     color: white;
     justify-content: center;
     align-items: center;
+    animation-name: scale-in-center;
+    animation-duration: 1s;
 }
 .to-your {
     padding: 0px 20px;
     margin-bottom: 20px;
     padding-bottom: 20px;
     margin-top: 20px;
+    animation-name: scale-in-center;
+    animation-duration: 1s;
 }
 .main-color2 {
     background: gold;
@@ -374,6 +400,8 @@ footer nav a:hover {
     justify-content: center;
     align-items: center;
     text-align: center;
+    animation-name: scale-in-center;
+    animation-duration: 1s;
 }
 .sub-colors .color21 {
     background: #FFDA17;
@@ -383,6 +411,8 @@ footer nav a:hover {
     color: white;
     justify-content: center;
     align-items: center;
+    animation-name: scale-in-center;
+    animation-duration: 1s;
 }
 .sub-colors .color22 {
     background: #FFDE2E;
@@ -392,6 +422,8 @@ footer nav a:hover {
     color: white;
     justify-content: center;
     align-items: center;
+    animation-name: scale-in-center;
+    animation-duration: 1s;
 }
 .sub-colors .color23 {
     background: #FFE145;
@@ -401,6 +433,8 @@ footer nav a:hover {
     color: white;
     justify-content: center;
     align-items: center;
+    animation-name: scale-in-center;
+    animation-duration: 1s;
 }
 .sub-colors .color24 {
     background: #FFE55C;
@@ -410,6 +444,8 @@ footer nav a:hover {
     color: white;
     justify-content: center;
     align-items: center;
+    animation-name: scale-in-center;
+    animation-duration: 1s;
 }
 .main-color3 {
     background: cadetblue;
@@ -421,6 +457,8 @@ footer nav a:hover {
     justify-content: center;
     align-items: center;
     text-align: center;
+    animation-name: scale-in-center;
+    animation-duration: 1s;
 }
 .sub-colors .color31 {
     background: #6DA6A8;
@@ -430,6 +468,8 @@ footer nav a:hover {
     color: white;
     justify-content: center;
     align-items: center;
+    animation-name: scale-in-center;
+    animation-duration: 1s;
 }
 .sub-colors .color32 {
     background: #7CAFB1;
@@ -439,6 +479,8 @@ footer nav a:hover {
     color: white;
     justify-content: center;
     align-items: center;
+    animation-name: scale-in-center;
+    animation-duration: 1s;
 }
 .sub-colors .color33 {
     background: #8AB8B9;
@@ -448,6 +490,8 @@ footer nav a:hover {
     color: white;
     justify-content: center;
     align-items: center;
+    animation-name: scale-in-center;
+    animation-duration: 1s;
 }
 .sub-colors .color34 {
     background: #99C1C2;
@@ -457,6 +501,8 @@ footer nav a:hover {
     color: white;
     justify-content: center;
     align-items: center;
+    animation-name: scale-in-center;
+    animation-duration: 1s;
 }
 .main-color4 {
     background: coral;
@@ -468,6 +514,8 @@ footer nav a:hover {
     justify-content: center;
     align-items: center;
     text-align: center;
+    animation-name: scale-in-center;
+    animation-duration: 1s;
 }
 .sub-colors .color41 {
     background: #FF8A5F;
@@ -477,6 +525,8 @@ footer nav a:hover {
     color: white;
     justify-content: center;
     align-items: center;
+    animation-name: scale-in-center;
+    animation-duration: 1s;
 }
 .sub-colors .color42 {
     background: #FF966F;
@@ -486,6 +536,8 @@ footer nav a:hover {
     color: white;
     justify-content: center;
     align-items: center;
+    animation-name: scale-in-center;
+    animation-duration: 1s;
 }
 .sub-colors .color43 {
     background: #FFA17F;
@@ -495,6 +547,8 @@ footer nav a:hover {
     color: white;
     justify-content: center;
     align-items: center;
+    animation-name: scale-in-center;
+    animation-duration: 1s;
 }
 .sub-colors .color44 {
     background: #FFAD8F;
@@ -504,6 +558,8 @@ footer nav a:hover {
     color: white;
     justify-content: center;
     align-items: center;
+    animation-name: scale-in-center;
+    animation-duration: 1s;
 }
 .main-color5 {
     background: crimson;
@@ -515,6 +571,8 @@ footer nav a:hover {
     justify-content: center;
     align-items: center;
     text-align: center;
+    animation-name: scale-in-center;
+    animation-duration: 1s;
 }
 .sub-colors .color51 {
     background: #DF294D;
@@ -524,6 +582,8 @@ footer nav a:hover {
     color: white;
     justify-content: center;
     align-items: center;
+    animation-name: scale-in-center;
+    animation-duration: 1s;
 }
 .sub-colors .color52 {
     background: #E23E5F;
@@ -533,6 +593,8 @@ footer nav a:hover {
     color: white;
     justify-content: center;
     align-items: center;
+    animation-name: scale-in-center;
+    animation-duration: 1s;
 }
 .sub-colors .color53 {
     background: #E55471;
@@ -542,6 +604,8 @@ footer nav a:hover {
     color: white;
     justify-content: center;
     align-items: center;
+    animation-name: scale-in-center;
+    animation-duration: 1s;
 }
 .sub-colors .color54 {
     background: #E86982;
@@ -551,6 +615,8 @@ footer nav a:hover {
     color: white;
     justify-content: center;
     align-items: center;
+    animation-name: scale-in-center;
+    animation-duration: 1s;
 }
 .main-color6 {
     background: forestgreen;
@@ -562,6 +628,8 @@ footer nav a:hover {
     justify-content: center;
     align-items: center;
     text-align: center;
+    animation-name: scale-in-center;
+    animation-duration: 1s;
 }
 .sub-colors .color61 {
     background: #369536;
@@ -571,6 +639,8 @@ footer nav a:hover {
     color: white;
     justify-content: center;
     align-items: center;
+    animation-name: scale-in-center;
+    animation-duration: 1s;
 }
 .sub-colors .color62 {
     background: #4AA04A;
@@ -580,6 +650,8 @@ footer nav a:hover {
     color: white;
     justify-content: center;
     align-items: center;
+    animation-name: scale-in-center;
+    animation-duration: 1s;
 }
 .sub-colors .color63 {
     background: #5EAA5E;
@@ -589,6 +661,8 @@ footer nav a:hover {
     color: white;
     justify-content: center;
     align-items: center;
+    animation-name: scale-in-center;
+    animation-duration: 1s;
 }
 .sub-colors .color64 {
     background: #72B572;
@@ -598,6 +672,8 @@ footer nav a:hover {
     color: white;
     justify-content: center;
     align-items: center;
+    animation-name: scale-in-center;
+    animation-duration: 1s;
 }
 .main-color7 {
     background: darkorchid;
@@ -609,6 +685,8 @@ footer nav a:hover {
     justify-content: center;
     align-items: center;
     text-align: center;
+    animation-name: scale-in-center;
+    animation-duration: 1s;
 }
 .sub-colors .color71 {
     background: #A244D0;
@@ -618,6 +696,8 @@ footer nav a:hover {
     color: white;
     justify-content: center;
     align-items: center;
+    animation-name: scale-in-center;
+    animation-duration: 1s;
 }
 .sub-colors .color72 {
     background: #AB57D5;
@@ -627,6 +707,8 @@ footer nav a:hover {
     color: white;
     justify-content: center;
     align-items: center;
+    animation-name: scale-in-center;
+    animation-duration: 1s;
 }
 .sub-colors .color73 {
     background: #B469D9;
@@ -636,6 +718,8 @@ footer nav a:hover {
     color: white;
     justify-content: center;
     align-items: center;
+    animation-name: scale-in-center;
+    animation-duration: 1s;
 }
 .sub-colors .color74 {
     background: #BE7CDE;
@@ -645,6 +729,8 @@ footer nav a:hover {
     color: white;
     justify-content: center;
     align-items: center;
+    animation-name: scale-in-center;
+    animation-duration: 1s;
 }
 .main-color8 {
     background: hotpink;
@@ -656,6 +742,8 @@ footer nav a:hover {
     justify-content: center;
     align-items: center;
     text-align: center;
+    animation-name: scale-in-center;
+    animation-duration: 1s;
 }
 .sub-colors .color81 {
     background: #FF76BA;
@@ -665,6 +753,8 @@ footer nav a:hover {
     color: white;
     justify-content: center;
     align-items: center;
+    animation-name: scale-in-center;
+    animation-duration: 1s;
 }
 .sub-colors .color82 {
     background: #FF84C1;
@@ -674,6 +764,8 @@ footer nav a:hover {
     color: white;
     justify-content: center;
     align-items: center;
+    animation-name: scale-in-center;
+    animation-duration: 1s;
 }
 .sub-colors .color83 {
     background: #FF91C8;
@@ -683,6 +775,8 @@ footer nav a:hover {
     color: white;
     justify-content: center;
     align-items: center;
+    animation-name: scale-in-center;
+    animation-duration: 1s;
 }
 .sub-colors .color84 {
     background: #FF9FCF;
@@ -692,6 +786,8 @@ footer nav a:hover {
     color: white;
     justify-content: center;
     align-items: center;
+    animation-name: scale-in-center;
+    animation-duration: 1s;
 }
 .main-color9 {
     background: indigo;
@@ -703,6 +799,8 @@ footer nav a:hover {
     justify-content: center;
     align-items: center;
     text-align: center;
+    animation-name: scale-in-center;
+    animation-duration: 1s;
 }
 .sub-colors .color91 {
     background: #5B178D;
@@ -712,6 +810,8 @@ footer nav a:hover {
     color: white;
     justify-content: center;
     align-items: center;
+    animation-name: scale-in-center;
+    animation-duration: 1s;
 }
 .sub-colors .color92 {
     background: #6B2E98;
@@ -721,6 +821,8 @@ footer nav a:hover {
     color: white;
     justify-content: center;
     align-items: center;
+    animation-name: scale-in-center;
+    animation-duration: 1s;
 }
 .sub-colors .color93 {
     background: #7C45A4;
@@ -730,6 +832,8 @@ footer nav a:hover {
     color: white;
     justify-content: center;
     align-items: center;
+    animation-name: scale-in-center;
+    animation-duration: 1s;
 }
 .sub-colors .color94 {
     background: #8C5CAF;
@@ -739,6 +843,8 @@ footer nav a:hover {
     color: white;
     justify-content: center;
     align-items: center;
+    animation-name: scale-in-center;
+    animation-duration: 1s;
 }
 .main-color10 {
     background: dodgerblue;
@@ -750,6 +856,8 @@ footer nav a:hover {
     justify-content: center;
     align-items: center;
     text-align: center;
+    animation-name: scale-in-center;
+    animation-duration: 1s;
 }
 .sub-colors .color101 {
     background: #329AFF;
@@ -759,6 +867,8 @@ footer nav a:hover {
     color: white;
     justify-content: center;
     align-items: center;
+    animation-name: scale-in-center;
+    animation-duration: 1s;
 }
 .sub-colors .color102 {
     background: #46A4FF;
@@ -768,6 +878,8 @@ footer nav a:hover {
     color: white;
     justify-content: center;
     align-items: center;
+    animation-name: scale-in-center;
+    animation-duration: 1s;
 }
 .sub-colors .color103 {
     background: #5BAEFF;
@@ -777,6 +889,8 @@ footer nav a:hover {
     color: white;
     justify-content: center;
     align-items: center;
+    animation-name: scale-in-center;
+    animation-duration: 1s;
 }
 .sub-colors .color104 {
     background: #6FB8FF;
@@ -786,4 +900,22 @@ footer nav a:hover {
     color: white;
     justify-content: center;
     align-items: center;
+    animation-name: scale-in-center;
+    animation-duration: 1s;
 }
+.scale-in-center {
+	-webkit-animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+@-webkit-keyframes scale-in-center {
+    0% {
+      -webkit-transform: scale(0);
+              transform: scale(0);
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      opacity: 1;
+    }
+  }
