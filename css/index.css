@@ -77,6 +77,8 @@ p {
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    animation-name: scale-in-center;
+    animation-duration: 1s;
 }
 
 .top-content .text-container {
@@ -88,6 +90,8 @@ p {
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    animation-name: scale-in-center;
+    animation-duration: 1s;
 }
 
 .middle-content h2 {
@@ -99,23 +103,26 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    text-decoration: none;
 }
 
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+    text-decoration: none;
 }
 
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
     justify-content: space-around;
+    animation-name: scale-in-center;
+    animation-duration: 1s;
 }
 
 .bottom-content .text-container {
@@ -144,3 +151,771 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 800px;
+    height: 100px;
+    margin-top: 0px;
+    animation-name: slidein;
+      animation-duration: 1s;
+}
+.navigation img {
+    padding-bottom: 20px;
+}
+.navigation a {
+    text-decoration: none;
+    color: black;
+    margin: 0px 40px 0px 0px;
+    font-size: 14px;
+    padding: 6px 4px 0px 0px;
+}
+.navigation a:hover {
+    color: #adadad;
+}
+.headerIMG {
+    margin: 0px 0px 20px 0px;
+    animation-name: scale-in-center;
+    animation-duration: 1s;
+}
+.box1 {
+    background: teal;
+}
+.box1:hover {
+    background: #73B9B9;
+    cursor: pointer;
+}
+.box2 {
+    background: gold;
+}
+.box2:hover {
+    background: #FFE973;
+    cursor: pointer;
+}
+.box3 {
+    background: cadetblue;
+}
+.box3:hover {
+    background: #A7CACB;
+    cursor: pointer;
+}
+.box4 {
+    background: coral;
+}
+.box4:hover {
+    background: #FFB99F;
+    cursor: pointer;
+}
+.box5 {
+    background: crimson;
+}
+.box5:hover {
+    background: #EB7E94;
+    cursor: pointer;
+}
+.box6 {
+    background: forestgreen;
+}
+.box6:hover {
+    background: #86BF86;
+    cursor: pointer;
+}
+.box7 {
+    background: darkorchid;
+}
+.box7:hover {
+    background: #C78FE3;
+    cursor: pointer;
+}
+.box8 {
+    background: hotpink;
+    cursor: pointer;
+}
+.box8:hover {
+    background: #FFADD6;
+    cursor: pointer;
+}
+.box9 {
+    background: indigo;
+}
+.box9:hover {
+    background: #9C73BA;
+    cursor: pointer;
+}
+.box10 {
+    background: dodgerblue;
+    cursor: pointer;
+}
+.box10:hover {
+    background: #84C2FF;
+    cursor: pointer;
+}
+.top-about-content {
+    padding: 0px 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+    padding-bottom: 20px;
+    animation-name: scale-in-center;
+    animation-duration: 1s;
+}
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    animation-name: scale-in-center;
+    animation-duration: 1s;
+}
+.ind-card {
+    width: 48%;
+    border-bottom: 1px dashed black;
+    margin: 10px 0px 40px 0px;
+    padding-bottom: 20px;
+}
+.ind-card h2 {
+    margin-top: 12px;
+}
+.learn-more {
+    height: 40px;
+    width: 130px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 16px;
+    color: black;
+    background: white;
+    margin-top: 20px;
+    padding-left: 10px;
+}
+.learn-more:hover {
+    background: black;
+    color: white;
+    cursor: pointer;
+}
+.bottom-work-together {
+    padding: 0px 20px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+footer nav a:hover {
+    color: #c4c4c4;
+}
+@keyframes slidein {
+    from {
+      margin-right: 100%;
+      width: 200%; 
+    }
+  
+    to {
+      margin-right: 0%;
+      width: 100%;
+    }
+}
+
+/* new box pages */
+
+.main-color {
+    background: teal;
+    height: 400px;
+    justify-content: center;
+    align-content: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    animation-name: scale-in-center;
+    animation-duration: 1s;
+}
+.main-color strong{
+    font-weight: bold;
+}
+.main-color p {
+    font-size: 30px;
+}
+
+
+.sub-colors{
+    display: flex;
+    flex-wrap: wrap;
+}
+.sub-colors .color1 {
+    background: #178B8B;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    animation-name: scale-in-center;
+    animation-duration: 1s;
+}
+.sub-colors .color2 {
+    background: #2E9797;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    animation-name: scale-in-center;
+    animation-duration: 1s;
+}
+.sub-colors .color3 {
+    background: #45A2A2;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    animation-name: scale-in-center;
+    animation-duration: 1s;
+}
+.sub-colors .color4 {
+    background: #5CAEAE;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    animation-name: scale-in-center;
+    animation-duration: 1s;
+}
+.to-your {
+    padding: 0px 20px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    animation-name: scale-in-center;
+    animation-duration: 1s;
+}
+.main-color2 {
+    background: gold;
+    height: 400px;
+    justify-content: center;
+    align-content: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    animation-name: scale-in-center;
+    animation-duration: 1s;
+}
+.sub-colors .color21 {
+    background: #FFDA17;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    animation-name: scale-in-center;
+    animation-duration: 1s;
+}
+.sub-colors .color22 {
+    background: #FFDE2E;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    animation-name: scale-in-center;
+    animation-duration: 1s;
+}
+.sub-colors .color23 {
+    background: #FFE145;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    animation-name: scale-in-center;
+    animation-duration: 1s;
+}
+.sub-colors .color24 {
+    background: #FFE55C;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    animation-name: scale-in-center;
+    animation-duration: 1s;
+}
+.main-color3 {
+    background: cadetblue;
+    height: 400px;
+    justify-content: center;
+    align-content: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    animation-name: scale-in-center;
+    animation-duration: 1s;
+}
+.sub-colors .color31 {
+    background: #6DA6A8;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    animation-name: scale-in-center;
+    animation-duration: 1s;
+}
+.sub-colors .color32 {
+    background: #7CAFB1;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    animation-name: scale-in-center;
+    animation-duration: 1s;
+}
+.sub-colors .color33 {
+    background: #8AB8B9;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    animation-name: scale-in-center;
+    animation-duration: 1s;
+}
+.sub-colors .color34 {
+    background: #99C1C2;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    animation-name: scale-in-center;
+    animation-duration: 1s;
+}
+.main-color4 {
+    background: coral;
+    height: 400px;
+    justify-content: center;
+    align-content: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    animation-name: scale-in-center;
+    animation-duration: 1s;
+}
+.sub-colors .color41 {
+    background: #FF8A5F;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    animation-name: scale-in-center;
+    animation-duration: 1s;
+}
+.sub-colors .color42 {
+    background: #FF966F;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    animation-name: scale-in-center;
+    animation-duration: 1s;
+}
+.sub-colors .color43 {
+    background: #FFA17F;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    animation-name: scale-in-center;
+    animation-duration: 1s;
+}
+.sub-colors .color44 {
+    background: #FFAD8F;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    animation-name: scale-in-center;
+    animation-duration: 1s;
+}
+.main-color5 {
+    background: crimson;
+    height: 400px;
+    justify-content: center;
+    align-content: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    animation-name: scale-in-center;
+    animation-duration: 1s;
+}
+.sub-colors .color51 {
+    background: #DF294D;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    animation-name: scale-in-center;
+    animation-duration: 1s;
+}
+.sub-colors .color52 {
+    background: #E23E5F;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    animation-name: scale-in-center;
+    animation-duration: 1s;
+}
+.sub-colors .color53 {
+    background: #E55471;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    animation-name: scale-in-center;
+    animation-duration: 1s;
+}
+.sub-colors .color54 {
+    background: #E86982;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    animation-name: scale-in-center;
+    animation-duration: 1s;
+}
+.main-color6 {
+    background: forestgreen;
+    height: 400px;
+    justify-content: center;
+    align-content: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    animation-name: scale-in-center;
+    animation-duration: 1s;
+}
+.sub-colors .color61 {
+    background: #369536;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    animation-name: scale-in-center;
+    animation-duration: 1s;
+}
+.sub-colors .color62 {
+    background: #4AA04A;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    animation-name: scale-in-center;
+    animation-duration: 1s;
+}
+.sub-colors .color63 {
+    background: #5EAA5E;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    animation-name: scale-in-center;
+    animation-duration: 1s;
+}
+.sub-colors .color64 {
+    background: #72B572;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    animation-name: scale-in-center;
+    animation-duration: 1s;
+}
+.main-color7 {
+    background: darkorchid;
+    height: 400px;
+    justify-content: center;
+    align-content: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    animation-name: scale-in-center;
+    animation-duration: 1s;
+}
+.sub-colors .color71 {
+    background: #A244D0;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    animation-name: scale-in-center;
+    animation-duration: 1s;
+}
+.sub-colors .color72 {
+    background: #AB57D5;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    animation-name: scale-in-center;
+    animation-duration: 1s;
+}
+.sub-colors .color73 {
+    background: #B469D9;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    animation-name: scale-in-center;
+    animation-duration: 1s;
+}
+.sub-colors .color74 {
+    background: #BE7CDE;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    animation-name: scale-in-center;
+    animation-duration: 1s;
+}
+.main-color8 {
+    background: hotpink;
+    height: 400px;
+    justify-content: center;
+    align-content: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    animation-name: scale-in-center;
+    animation-duration: 1s;
+}
+.sub-colors .color81 {
+    background: #FF76BA;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    animation-name: scale-in-center;
+    animation-duration: 1s;
+}
+.sub-colors .color82 {
+    background: #FF84C1;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    animation-name: scale-in-center;
+    animation-duration: 1s;
+}
+.sub-colors .color83 {
+    background: #FF91C8;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    animation-name: scale-in-center;
+    animation-duration: 1s;
+}
+.sub-colors .color84 {
+    background: #FF9FCF;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    animation-name: scale-in-center;
+    animation-duration: 1s;
+}
+.main-color9 {
+    background: indigo;
+    height: 400px;
+    justify-content: center;
+    align-content: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    animation-name: scale-in-center;
+    animation-duration: 1s;
+}
+.sub-colors .color91 {
+    background: #5B178D;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    animation-name: scale-in-center;
+    animation-duration: 1s;
+}
+.sub-colors .color92 {
+    background: #6B2E98;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    animation-name: scale-in-center;
+    animation-duration: 1s;
+}
+.sub-colors .color93 {
+    background: #7C45A4;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    animation-name: scale-in-center;
+    animation-duration: 1s;
+}
+.sub-colors .color94 {
+    background: #8C5CAF;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    animation-name: scale-in-center;
+    animation-duration: 1s;
+}
+.main-color10 {
+    background: dodgerblue;
+    height: 400px;
+    justify-content: center;
+    align-content: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    animation-name: scale-in-center;
+    animation-duration: 1s;
+}
+.sub-colors .color101 {
+    background: #329AFF;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    animation-name: scale-in-center;
+    animation-duration: 1s;
+}
+.sub-colors .color102 {
+    background: #46A4FF;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    animation-name: scale-in-center;
+    animation-duration: 1s;
+}
+.sub-colors .color103 {
+    background: #5BAEFF;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    animation-name: scale-in-center;
+    animation-duration: 1s;
+}
+.sub-colors .color104 {
+    background: #6FB8FF;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    animation-name: scale-in-center;
+    animation-duration: 1s;
+}
+.scale-in-center {
+	-webkit-animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+@-webkit-keyframes scale-in-center {
+    0% {
+      -webkit-transform: scale(0);
+              transform: scale(0);
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      opacity: 1;
+    }
+  }
